@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profil Sederhana</title>
+  <title>Homepage</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -11,25 +11,25 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      min-height: 100vh;
       margin: 0;
+      padding: 24px;
+      box-sizing: border-box;
     }
     .card {
       background: white;
-      padding: 24px;
+      padding: 32px;
       border-radius: 12px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
       text-align: center;
-      max-width: 300px;
+      max-width: 480px;
     }
     .btn {
       display: inline-block;
       background-color: #28a745;
       color: white;
-      border: none;
       padding: 10px 16px;
       border-radius: 6px;
-      cursor: pointer;
       text-decoration: none;
     }
     .btn:hover {
@@ -38,13 +38,10 @@
   </style>
 </head>
 <body>
-
-  <div class="card">
-    <h2>Halo, Guys!</h2>
-    <p>Ini adalah contoh tampilan halaman web sederhana yang dibuat dengan HTML dan CSS. Halaman ini menampilkan kartu profil dengan judul, deskripsi, dan tombol interaktif. Desainnya dibuat bersih dan nyaman dilihat, sehingga cocok digunakan sebagai latihan dasar untuk memahami struktur HTML serta cara mengatur tampilan elemen menggunakan CSS.</p>
-    
-    <a class="btn" href="homepage.html">Klik Saya</a>
-  </div>
-
+  <main class="card">
+    <h1>Selamat Datang di Homepage!</h1>
+    <p>Ini adalah halaman utama sederhana. Terima kasih sudah berkunjung!</p>
+    <a class="btn" href="index.html">Kembali ke Halaman Profil</a>
+  </main>
 </body>
 </html>
